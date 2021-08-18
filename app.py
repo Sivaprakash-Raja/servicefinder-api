@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request
 import main as m
-import sorting as s
 import pandas as pd
 app = Flask(__name__)
 
