@@ -15,7 +15,7 @@ def models():
         result=day+"/"+hour+"/"+min
         #result= models.powerPrediction(day,hour,min)
 
-    return render_template('index.html',d=result)
+    return render_template('template.html',d=result)
 
 
 
