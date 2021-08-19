@@ -2,8 +2,6 @@ import flask
 from flask import Flask, render_template, request
 from flask import jsonify
 import main as m
-
-import sorting as s
 import pandas as pd
 app = Flask(__name__)
 
