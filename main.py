@@ -137,7 +137,7 @@ def findnow(loc, ser):
 
         dfs = pd.concat(result)
         dfs = dfs[dfs["Skillset"] == ser]
-        dfs = dfs.sort_values(["Experience", "Customer rating"], ascending=False)
+        dfs = dfs.sort_values(["Customer rating","Experience"], ascending=False)
         dfs = dfs.drop_duplicates()
 
         ans = dfs.to_numpy().tolist()
