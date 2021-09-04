@@ -35,7 +35,7 @@ def appmodel():
 
         for i in range(len(listsa)):
             r = listsa[i]
-            dicts[i] = {"Name": r[0],"Contact no":r[1],"Service":r[2],"Location":r[3],"Experience":r[4],"Customer rating":r[5]}
+            dicts[i] = {"Name": r[0],"Contact no":r[1],"Location":r[2],"Service":r[3],"Experience":r[4],"Customer rating":r[5]}
 
 
     return jsonify(dicts)
